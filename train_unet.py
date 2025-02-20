@@ -10,8 +10,8 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 # Set paths
-IMAGE_PATH = r'G:\My Drive\glt works\Prem Ananth\code\images\CT\lung_region\imgs'
-MASK_PATH = r'G:\My Drive\glt works\Prem Ananth\code\images\CT\lung_region\msks'
+IMAGE_PATH = r'C:\glt works\Prem Ananth\code\images\CT\lung_region\imgs'
+MASK_PATH = r'C:\glt works\Prem Ananth\code\images\CT\lung_region\msks'
 IMG_SIZE = (256, 256)  # Resize images to 256x256
 BATCH_SIZE = 16
 EPOCHS = 50
